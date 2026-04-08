@@ -1,0 +1,19 @@
+User-agent: facebookexternalhit
+Disallow: /enroll/
+Disallow: /order/
+Allow: /certificates/
+
+User-agent: Twitterbot
+Disallow: /enroll/
+Disallow: /order/
+Allow: /certificates/
+
+User-agent: LinkedInBot
+Disallow: /enroll/
+Disallow: /order/
+Allow: /certificates/
+
+User-agent: *
+Disallow: /enroll/
+Disallow: /order/
+Disallow: /certificates/
